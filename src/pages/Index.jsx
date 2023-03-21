@@ -79,7 +79,10 @@ const Index = () => {
               <Link to={"/car/" + filteredCar._id} key={filteredCar._id}>
                 <div className="bg-gray-500 mb-2 rounded-2xl flex">
                   <img
-                    src={"http://localhost:4000/" + filteredCar.photos[0]}
+                    src={
+                      "https://alugame-api.onrender.com/" +
+                      filteredCar.photos[0]
+                    }
                     className="rounded-3xl object-contain "
                     alt=""
                   />
@@ -105,7 +108,7 @@ const Index = () => {
               <Link to={"/car/" + car._id} key={car._id}>
                 <div className="bg-gray-500 mb-2 rounded-2xl flex">
                   <img
-                    src={"http://localhost:4000/" + car.photos[0]}
+                    src={"https://alugame-api.onrender.com/" + car.photos[0]}
                     className="rounded-3xl object-contain "
                     alt=""
                   />

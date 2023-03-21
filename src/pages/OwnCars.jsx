@@ -71,7 +71,7 @@ const OwnCars = () => {
           >
             <div className="flex w-32 h-32 bg-gray-300">
               <img
-                src={"http://localhost:4000/" + car.photos[0]}
+                src={"https://alugame-api.onrender.com/" + car.photos[0]}
                 className="object-cover"
                 alt=""
               />
@@ -112,7 +112,7 @@ const OwnCars = () => {
             >
               <div className="flex w-32 h-32 bg-gray-300">
                 <img
-                  src={"http://localhost:4000/" + car.photos[0]}
+                  src={"https://alugame-api.onrender.com/" + car.photos[0]}
                   className="object-cover"
                   alt=""
                 />
